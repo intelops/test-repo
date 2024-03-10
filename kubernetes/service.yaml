@@ -1,0 +1,18 @@
+apiVersion: v1
+kind: Service
+metadata:
+  namespace: test-repo
+  labels:
+    app: test-repo
+  name: test-repo
+spec:
+  ports:
+  
+    - protocol: TCP
+      port: 4500
+      targetPort: 4500
+   
+   
+  selector:
+    app: test-repo
+  type: ClusterIP
