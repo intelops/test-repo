@@ -1,4 +1,4 @@
-# mahendraintelops/test-repo/test-repo
+# intelops/test-repo
 test-repo
 
 
