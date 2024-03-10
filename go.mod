@@ -3,29 +3,23 @@ module github.com/mahendraintelops/test-repo/test-repo
 go 1.20
 
 require (
-
-    github.com/go-sql-driver/mysql v1.7.1
-    gorm.io/driver/mysql v1.5.1
-	gorm.io/driver/sqlite v1.5.2
 	github.com/gin-gonic/gin v1.9.1
 	github.com/mattn/go-sqlite3 v1.14.17
 	github.com/prometheus/client_golang v1.13.0
 	github.com/sinhashubham95/go-actuator v1.4.0
 	github.com/sirupsen/logrus v1.9.0
 	github.com/uptrace/opentelemetry-go-extra/otelsql v0.2.2
-    go.opentelemetry.io/contrib/instrumentation/go.mongodb.org/mongo-driver/mongo/otelmongo v0.42.0
 	go.opentelemetry.io/contrib/instrumentation/github.com/gin-gonic/gin/otelgin v0.36.4
 	go.opentelemetry.io/otel v1.16.0
 	go.opentelemetry.io/otel/exporters/otlp/otlptrace v1.16.0
 	go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc v1.16.0
 	go.opentelemetry.io/otel/sdk v1.16.0
 	go.opentelemetry.io/otel/trace v1.16.0
-	google.golang.org/grpc v1.56.0
+	google.golang.org/grpc v1.56.3
 
 )
 
 require (
-
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/bytedance/sonic v1.9.1 // indirect
 	github.com/cenkalti/backoff/v4 v4.2.1 // indirect
